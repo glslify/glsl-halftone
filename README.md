@@ -4,7 +4,9 @@
 
 ![halftone](http://i.imgur.com/GTjatxC.jpg)
 
-A halftone shader in GLSL, adapted from Stefan Gustavson's work [here](http://webstaff.itn.liu.se/~stegu/webglshadertutorial/shadertutorial.html). Bilinear texture sampling (step 5) and minification (step 9) are left up to the user to implement.
+[(glslbin demo)](http://glslb.in/s/d48f3d11)
+
+A halftone shader in GLSL, adapted from Stefan Gustavson's work [here](http://webstaff.itn.liu.se/~stegu/webglshadertutorial/shadertutorial.html). Bilinear texture sampling and minification are left up to the user to implement (see steps 5 and 9 in Gustavson's tutorial).
 
 For anti-aliasing, you should enable standard derivatives at the top of your shader, before requiring this module.
 
