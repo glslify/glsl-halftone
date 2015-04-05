@@ -19,13 +19,13 @@ precision highp float;
 
 varying vec2 uv;
 uniform vec2 iResolution;
-uniform sampler2D sampler;
+uniform sampler2D u_sampler;
 
 #pragma glslify: halftone = require('glsl-halftone')
 
 void main() {
   //sample from texture; optionally using manual bilinear filtering
-  vec4 texcolor = texture2D(sampler, uv);
+  vec4 texcolor = texture2D(u_sampler, uv);
 
   //aspect corrected texture coordinates
   vec2 st = uv * vec2(iResolution.x / iResolution.y);
