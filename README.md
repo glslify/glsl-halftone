@@ -28,7 +28,8 @@ void main() {
   vec4 texcolor = texture2D(u_sampler, uv);
 
   //aspect corrected texture coordinates
-  vec2 st = uv * vec2(iResolution.x / iResolution.y);
+  vec2 st = uv;
+  st.x *= iResolution.x / iResolution.y;
   
   //apply halftone effect
   gl_FragColor.rgb = halftone(texcolor.rgb, st);
