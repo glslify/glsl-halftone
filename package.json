@@ -1,0 +1,35 @@
+{
+  "name": "glsl-halftone",
+  "version": "1.0.0",
+  "description": "a halftone effect in GLSL",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "glsl-aastep": "^1.0.0",
+    "glsl-noise": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "halftone",
+    "shader",
+    "glsl",
+    "glslify",
+    "glslbin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-halftone.git"
+  },
+  "homepage": "https://github.com/stackgl/glsl-halftone",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-halftone/issues"
+  }
+}
