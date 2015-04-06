@@ -4,7 +4,7 @@
 
 ![halftone](http://i.imgur.com/GTjatxC.jpg)
 
-[(glslbin demo)](http://glslb.in/s/d48f3d11)
+[(glslbin demo)](http://glslb.in/s/4d6e366d)
 
 A halftone shader in GLSL, adapted from Stefan Gustavson's work [here](http://webstaff.itn.liu.se/~stegu/webglshadertutorial/shadertutorial.html). Bilinear texture sampling and minification are left up to the user to implement (see steps 5 and 9 in Gustavson's tutorial).
 
